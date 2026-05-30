@@ -1,0 +1,16 @@
+groq==0.9.0                        # Groq API client for llama-3.3-70b-versatile
+
+sentence-transformers==3.0.1       # HuggingFace all-MiniLM-L6-v2, runs locally
+torch>=2.0.0                       # Required backend for sentence-transformers
+
+chromadb==0.5.3                    # Local persistent vector database
+
+langgraph==0.2.14                  # LangGraph for query decomposition agent flow
+langchain-core==0.2.38             # Core abstractions used by LangGraph
+
+PyMuPDF==1.24.9                    # fitz — fast PDF text extraction with page numbers
+
+streamlit==1.37.1                  # Web UI for upload, question input, result display
+
+python-dotenv==1.0.1               # Loads GROQ_API_KEY from .env file
+pydantic==2.8.2                    # Data validation (used internally by LangGraph)

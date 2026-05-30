@@ -1,0 +1,22 @@
+IGNORE
+# Secrets
+.env
+ 
+# Vector DB — persists locally, no need to commit
+chroma_db/
+ 
+# Uploaded PDFs — runtime artefacts
+uploaded_pdfs/
+ 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+ 
+# OS
+.DS_Store
+Thumbs.db
+ 
